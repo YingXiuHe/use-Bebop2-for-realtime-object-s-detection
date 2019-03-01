@@ -5,5 +5,5 @@ How to create a project like this
 
 You can download this project to your PC's and then please change the project name to "bebop_ws", and you should make/build this project again.
 
-Or you can according to the "install.txt" to create a new project like this.
+Or you can according to the "install.txt" to create a new project like this.(I recommend you to follow this way to create your project) 
  
