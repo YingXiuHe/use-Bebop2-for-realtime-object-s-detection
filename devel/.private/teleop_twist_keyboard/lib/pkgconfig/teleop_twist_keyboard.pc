@@ -1,0 +1,8 @@
+prefix=/home/hxy/hxy/project/bebop_ws/devel/.private/teleop_twist_keyboard
+
+Name: teleop_twist_keyboard
+Description: Description of teleop_twist_keyboard
+Version: 0.6.0
+Cflags: 
+Libs: -L/home/hxy/hxy/project/bebop_ws/devel/.private/teleop_twist_keyboard/lib 
+Requires: 

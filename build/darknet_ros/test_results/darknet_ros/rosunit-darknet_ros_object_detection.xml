@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="3" failures="1" disabled="2" errors="0" timestamp="2018-09-18T10:31:03" time="13.537" name="AllTests">
+  <testsuite name="ObjectDetection" tests="3" failures="1" disabled="2" errors="0" time="13.537">
+    <testcase name="DISABLED_DetectDog" status="notrun" time="0" classname="ObjectDetection" />
+    <testcase name="DetectANYmal" status="run" time="13.537" classname="ObjectDetection">
+      <failure message="/home/hxy/hxy/project/bebop_ws/src/darknet_ros/darknet_ros/test/ObjectDetection.cpp:192&#x0A;Expected: (centerErrorPersonX) &lt; (30), actual: 259.5 vs 30" type=""><![CDATA[/home/hxy/hxy/project/bebop_ws/src/darknet_ros/darknet_ros/test/ObjectDetection.cpp:192
+Expected: (centerErrorPersonX) < (30), actual: 259.5 vs 30]]></failure>
+      <failure message="/home/hxy/hxy/project/bebop_ws/src/darknet_ros/darknet_ros/test/ObjectDetection.cpp:193&#x0A;Expected: (centerErrorPersonY) &lt; (30), actual: 284.5 vs 30" type=""><![CDATA[/home/hxy/hxy/project/bebop_ws/src/darknet_ros/darknet_ros/test/ObjectDetection.cpp:193
+Expected: (centerErrorPersonY) < (30), actual: 284.5 vs 30]]></failure>
+    </testcase>
+    <testcase name="DISABLED_DetectPerson" status="notrun" time="0" classname="ObjectDetection" />
+  </testsuite>
+</testsuites>

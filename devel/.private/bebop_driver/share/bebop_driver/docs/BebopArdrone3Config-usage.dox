@@ -1,0 +1,31 @@
+\subsubsection usage Usage
+\verbatim
+<node name="bebop_driver_nodelet" pkg="bebop_driver" type="bebop_driver_nodelet">
+  <param name="PilotingSettingsMaxAltitudeCurrent" type="double" value="0.0" />
+  <param name="PilotingSettingsMaxTiltCurrent" type="double" value="0.0" />
+  <param name="PilotingSettingsAbsolutControlOn" type="int" value="0" />
+  <param name="PilotingSettingsMaxDistanceValue" type="double" value="0.0" />
+  <param name="PilotingSettingsNoFlyOverMaxDistanceShouldnotflyover" type="int" value="0" />
+  <param name="PilotingSettingsBankedTurnValue" type="int" value="0" />
+  <param name="PilotingSettingsMinAltitudeCurrent" type="double" value="0.0" />
+  <param name="PilotingSettingsCirclingDirectionValue" type="int" value="0" />
+  <param name="PilotingSettingsCirclingRadiusValue" type="int" value="0" />
+  <param name="PilotingSettingsCirclingAltitudeValue" type="int" value="0" />
+  <param name="PilotingSettingsPitchModeValue" type="int" value="0" />
+  <param name="SpeedSettingsMaxVerticalSpeedCurrent" type="double" value="0.0" />
+  <param name="SpeedSettingsMaxRotationSpeedCurrent" type="double" value="0.0" />
+  <param name="SpeedSettingsHullProtectionPresent" type="int" value="0" />
+  <param name="SpeedSettingsOutdoorOutdoor" type="int" value="0" />
+  <param name="SpeedSettingsMaxPitchRollRotationSpeedCurrent" type="double" value="0.0" />
+  <param name="NetworkSettingsWifiSelectionType" type="int" value="0" />
+  <param name="NetworkSettingsWifiSelectionBand" type="int" value="0" />
+  <param name="NetworkSettingsWifiSelectionChannel" type="int" value="0" />
+  <param name="PictureSettingsVideoStabilizationModeMode" type="int" value="0" />
+  <param name="PictureSettingsVideoRecordingModeMode" type="int" value="0" />
+  <param name="PictureSettingsVideoFramerateFramerate" type="int" value="0" />
+  <param name="PictureSettingsVideoResolutionsType" type="int" value="0" />
+  <param name="GPSSettingsHomeTypeType" type="int" value="0" />
+  <param name="GPSSettingsReturnHomeDelayDelay" type="int" value="0" />
+</node>
+\endverbatim
+

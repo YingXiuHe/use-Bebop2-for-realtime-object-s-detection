@@ -1,0 +1,8 @@
+prefix=/home/hxy/hxy/project/bebop_ws/devel/.private/cv_transport
+
+Name: cv_transport
+Description: Description of cv_transport
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/hxy/hxy/project/bebop_ws/devel/.private/cv_transport/lib 
+Requires: 

@@ -1,0 +1,30 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~PilotingSettingsMaxAltitudeCurrent" : \b [double] Current altitude max in m min: 0.0, default: 0.0, max: 160.0
+- \b "~PilotingSettingsMaxTiltCurrent" : \b [double] Current tilt max in degree min: -180.0, default: 0.0, max: 180.0
+- \b "~PilotingSettingsAbsolutControlOn" : \b [int] 1 to enable, 0 to disable min: 0, default: 0, max: 1
+- \b "~PilotingSettingsMaxDistanceValue" : \b [double] Current max distance in meter min: 0.0, default: 0.0, max: 2000.0
+- \b "~PilotingSettingsNoFlyOverMaxDistanceShouldnotflyover" : \b [int] 1 if the drone cant fly further than max distance, 0 if no limitation on the drone should be done min: 0, default: 0, max: 1
+- \b "~PilotingSettingsBankedTurnValue" : \b [int] 1 to enable, 0 to disable min: 0, default: 0, max: 1
+- \b "~PilotingSettingsMinAltitudeCurrent" : \b [double] Current altitude min in m min: 0.0, default: 0.0, max: 160.0
+- \b "~PilotingSettingsCirclingDirectionValue" : \b [int] The circling direction min: 0, default: 0, max: 1
+- \b "~PilotingSettingsCirclingRadiusValue" : \b [int] The circling radius in meter min: 0, default: 0, max: 160
+- \b "~PilotingSettingsCirclingAltitudeValue" : \b [int] The circling altitude in meter min: 0, default: 0, max: 160
+- \b "~PilotingSettingsPitchModeValue" : \b [int] The Pitch mode min: 0, default: 0, max: 1
+- \b "~SpeedSettingsMaxVerticalSpeedCurrent" : \b [double] Current max vertical speed in m/s min: 0.0, default: 0.0, max: 10.0
+- \b "~SpeedSettingsMaxRotationSpeedCurrent" : \b [double] Current max yaw rotation speed in degree/s min: 0.0, default: 0.0, max: 900.0
+- \b "~SpeedSettingsHullProtectionPresent" : \b [int] 1 if present, 0 if not present min: 0, default: 0, max: 1
+- \b "~SpeedSettingsOutdoorOutdoor" : \b [int] 1 if outdoor flight, 0 if indoor flight min: 0, default: 0, max: 1
+- \b "~SpeedSettingsMaxPitchRollRotationSpeedCurrent" : \b [double] Current max pitch/roll rotation speed in degree/s min: 0.0, default: 0.0, max: 900.0
+- \b "~NetworkSettingsWifiSelectionType" : \b [int] The type of wifi selection (auto, manual) min: 0, default: 0, max: 1
+- \b "~NetworkSettingsWifiSelectionBand" : \b [int] The allowed band(s) : 2.4 Ghz, 5 Ghz, or all min: 0, default: 0, max: 2
+- \b "~NetworkSettingsWifiSelectionChannel" : \b [int] The channel (not used in auto mode) min: 0, default: 0, max: 50
+- \b "~PictureSettingsVideoStabilizationModeMode" : \b [int] Video stabilization mode min: 0, default: 0, max: 3
+- \b "~PictureSettingsVideoRecordingModeMode" : \b [int] Video recording mode min: 0, default: 0, max: 1
+- \b "~PictureSettingsVideoFramerateFramerate" : \b [int] Video framerate min: 0, default: 0, max: 2
+- \b "~PictureSettingsVideoResolutionsType" : \b [int] Video streaming and recording resolutions min: 0, default: 0, max: 1
+- \b "~GPSSettingsHomeTypeType" : \b [int] The type of the home position min: 0, default: 0, max: 2
+- \b "~GPSSettingsReturnHomeDelayDelay" : \b [int] Delay in second min: 0, default: 0, max: 120
+

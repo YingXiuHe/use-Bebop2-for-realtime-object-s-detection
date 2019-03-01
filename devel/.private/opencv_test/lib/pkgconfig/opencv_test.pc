@@ -1,0 +1,8 @@
+prefix=/home/hxy/hxy/project/bebop_ws/devel/.private/opencv_test
+
+Name: opencv_test
+Description: Description of opencv_test
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/hxy/hxy/project/bebop_ws/devel/.private/opencv_test/lib 
+Requires: 

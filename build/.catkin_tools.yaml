@@ -1,0 +1,6 @@
+devel_space: /home/hxy/hxy/project/bebop_ws/devel
+install: false
+install_space: /home/hxy/hxy/project/bebop_ws/install
+profile: default
+source_space: /home/hxy/hxy/project/bebop_ws/src
+workspace: /home/hxy/hxy/project/bebop_ws

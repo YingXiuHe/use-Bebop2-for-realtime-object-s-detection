@@ -1,0 +1,8 @@
+prefix=/home/hxy/hxy/project/bebop_ws/devel/.private/bebop_tools
+
+Name: bebop_tools
+Description: Description of bebop_tools
+Version: 0.7.0
+Cflags: 
+Libs: -L/home/hxy/hxy/project/bebop_ws/devel/.private/bebop_tools/lib 
+Requires: bebop_msgs

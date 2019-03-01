@@ -1,0 +1,8 @@
+prefix=/home/hxy/hxy/project/bebop_ws/install
+
+Name: opencv
+Description: Description of opencv
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/hxy/hxy/project/bebop_ws/install/lib 
+Requires: 

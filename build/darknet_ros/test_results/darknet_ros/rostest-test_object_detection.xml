@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="14.761"><testcase classname="rostest.runner.RosTest" name="testdarknet_ros_object_detection" time="14.7608" /><system-out>&lt;![CDATA[
+[ROSTEST]setup[/home/hxy/hxy/project/bebop_ws/src/darknet_ros/darknet_ros/test/object_detection.test] run_id[e2dfcbdc-baea-11e8-b036-88d7f68fc2d3] starting
+&amp;#x001B;[1mstarted roslaunch server http://hxy:46319/&amp;#x001B;[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /darknet_ros/actions/camera_reading/name: /darknet_ros/chec...
+ * /darknet_ros/config_path: /home/hxy/hxy/pro...
+ * /darknet_ros/image_view/enable_console_output: True
+ * /darknet_ros/image_view/enable_opencv: True
+ * /darknet_ros/image_view/wait_key_delay: 600
+ * /darknet_ros/publishers/bounding_boxes/latch: False
+ * /darknet_ros/publishers/bounding_boxes/queue_size: 1
+ * /darknet_ros/publishers/bounding_boxes/topic: /darknet_ros/boun...
+ * /darknet_ros/publishers/detection_image/latch: True
+ * /darknet_ros/publishers/detection_image/queue_size: 1
+ * /darknet_ros/publishers/detection_image/topic: /darknet_ros/dete...
+ * /darknet_ros/publishers/object_detector/latch: False
+ * /darknet_ros/publishers/object_detector/queue_size: 1
+ * /darknet_ros/publishers/object_detector/topic: /darknet_ros/foun...
+ * /darknet_ros/subscribers/camera_reading/queue_size: 1
+ * /darknet_ros/subscribers/camera_reading/topic: /camera/rgb/image...
+ * /darknet_ros/weights_path: /home/hxy/hxy/pro...
+ * /darknet_ros/yolo_model/config_file/name: yolov2.cfg
+ * /darknet_ros/yolo_model/detection_classes/names: ['person', 'bicyc...
+ * /darknet_ros/yolo_model/threshold/value: 0.5
+ * /darknet_ros/yolo_model/weight_file/name: yolov2.weights
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.14
+
+NODES
+  /
+    darknet_ros (darknet_ros/darknet_ros)
+
+[ROSTEST]setup[/home/hxy/hxy/project/bebop_ws/src/darknet_ros/darknet_ros/test/object_detection.test] run_id[e2dfcbdc-baea-11e8-b036-88d7f68fc2d3] done
+[ROSTEST]Running test [darknet_ros_object_detection]
+&amp;#x001B;[1mROS_MASTER_URI=http://hxy:44657/&amp;#x001B;[0m
+&amp;#x001B;[1msetting /run_id to e2dfcbdc-baea-11e8-b036-88d7f68fc2d3&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[darknet_ros-1]: started with pid [9151]&amp;#x001B;[0m
+[ROSTEST]running test darknet_ros_object_detection
+&amp;#x001B;[1mprocess[darknet_ros_object_detection-2]: started with pid [9152]&amp;#x001B;[0m
+[ROSTEST]test [darknet_ros_object_detection] finished
+[ROSTEST]test [darknet_ros_object_detection] results are in [/home/hxy/hxy/project/bebop_ws/build/darknet_ros/test_results/darknet_ros/rosunit-darknet_ros_object_detection.xml]
+[ROSTEST]test [darknet_ros_object_detection] results summary: 0 errors, 1 failures, 3 tests
+[ROSTEST][ROSTEST] test [darknet_ros_object_detection] done
+[ROSTEST]tearDown[/home/hxy/hxy/project/bebop_ws/src/darknet_ros/darknet_ros/test/object_detection.test]
+shutting down processing monitor...
+[darknet_ros-1] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/hxy/hxy/project/bebop_ws/src/darknet_ros/darknet_ros/test/object_detection.test complete
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+&amp;#x001B;[31m[darknet_ros_object_detection-2] process has died [pid 9152, exit code 1, cmd /home/hxy/hxy/project/bebop_ws/devel/.private/darknet_ros/lib/darknet_ros/darknet_ros_object_detection-test --gtest_output=xml:/home/hxy/hxy/project/bebop_ws/build/darknet_ros/test_results/darknet_ros/rosunit-darknet_ros_object_detection.xml __name:=darknet_ros_object_detection __log:=/home/hxy/.ros/log/e2dfcbdc-baea-11e8-b036-88d7f68fc2d3/darknet_ros_object_detection-2.log].
+log file: /home/hxy/.ros/log/e2dfcbdc-baea-11e8-b036-88d7f68fc2d3/darknet_ros_object_detection-2*.log&amp;#x001B;[0m
+
+]]&gt;</system-err></testsuite>

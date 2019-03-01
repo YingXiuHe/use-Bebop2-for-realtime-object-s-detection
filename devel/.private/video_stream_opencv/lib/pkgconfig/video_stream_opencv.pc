@@ -1,0 +1,8 @@
+prefix=/home/hxy/hxy/project/bebop_ws/devel/.private/video_stream_opencv
+
+Name: video_stream_opencv
+Description: Description of video_stream_opencv
+Version: 1.1.4
+Cflags: 
+Libs: -L/home/hxy/hxy/project/bebop_ws/devel/.private/video_stream_opencv/lib 
+Requires: 
