@@ -7,3 +7,9 @@ You can download this project to your PC's and then please change the project na
 
 Or you can according to the "install.txt" to create a new project like this.(I recommend you to follow this way to create your project) 
  
+
+Video of this project
+
+Youtube： https://www.youtube.com/watch?v=sgqNDEImGak&t=206s
+
+Bilibili：https://www.bilibili.com/video/av37356955?from=search&seid=14582432499615650334
