@@ -32,3 +32,43 @@ Workspace的创建与bebop-2的安装（参考: https://www.ncnynl.com/archives/
   $ cd ..
   $ catkin_make -DCMAKE_BUILD_TYPE=Release
   $ catkin build darknet_ros -DCMAKE_BUILD_TYPE=Release
+
+
+3.修改部分代码
+  1.	控制部分代码调整
+  进入teleop_twist_keyboard文件夹下，打开teleop_twist_keyboard.py代码，将这行代码修改如下：
+  Pub = rospy.Publisher(‘bebop/cmd_vel’, Twist, queue_size = 1)
+  
+  2.	yolo检测算法代码部分修改
+  进入darknet_ros文件夹下，找到config文件夹，并且进入打开ros.yaml文件，打开后，找到camera_reading这段代码，将topic修改为：/bebop/image_raw
+  （注意：改完代码后需重新编译工作空间，可以用catkin build指令对整个工作空间编译，也可单独编译这一个文件夹）
+
+4.启动无人机的实时目标检测project
+  1.打开无人机，让笔记本与无人机Wi-Fi连接；
+  2.启动ROS操作系统
+    打开一个新的终端，输入指令：
+      $ roscore 
+  3.启动无人机图传
+    打开一个新的终端，首先source一下工作空间：
+      $ source ～/bebop_ws/devel/setup.bash
+      $ roslaunch bebop_tools bebop_nodelet_iv.launch（运行完这行代码后，无人机的图传会显示在笔记本桌面端）
+  4.让无人机起飞/降落
+    再开一个终端，并且输入指令：
+      $ source ~/bebop_ws/devel/setup.bash
+      $ rostopic pub –once bebop/takeoff std_msgs/Empty (起飞)
+      $ rostopic pub –once bebop/land std_msgs/Empty (降落)
+  5.启动无人机控制代码
+    开启一个新的终端，并输入指令：
+      $ source ~/bebop_ws/devel/setup.bash
+      $ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+      此时，控制端已经开启，操作方式为键盘操作：
+      [i]:控制无人机前进; [k]:中断飞行指令；[,]:控制无人机后退；
+      [j]:控制无人机左转；[l]:控制无人机右转；
+      还有几个控制指令，不做详述；[u],[o],[m],[.]
+      控制指令还可调节为大写，如何控制请自行操作设置；
+   6.启动yolo检测算法对无人机视频进行实时检测；
+     开启一个新的终端，并输入指令：
+	    $ source ~/bebop_ws/devel/setup.bash
+	    $ roslaunch darknet_ros yolov3.launch
+
+
